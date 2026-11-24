@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "frappe-cross-border-wire-fema-inward-remittance"
+authors = [{name = "Shyam Kumar Pandey", email = "shyamkumarpandey1104@gmail.com"}]
+description = "Frappe FEMA Cross-Border Wire Engine: SWIFT Inward Remittance, RBI Purpose Codes, e-FIRA Vault & EDPMS Reconciler."
+version = "1.0.0"
+readme = "README.md"
+classifiers = ["Framework :: Frappe"]

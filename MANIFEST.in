@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fema_inward_remittance *.css
+recursive-include fema_inward_remittance *.csv
+recursive-include fema_inward_remittance *.html
+recursive-include fema_inward_remittance *.ico
+recursive-include fema_inward_remittance *.js
+recursive-include fema_inward_remittance *.json
+recursive-include fema_inward_remittance *.md
+recursive-include fema_inward_remittance *.png
+recursive-include fema_inward_remittance *.py
+recursive-include fema_inward_remittance *.svg
+recursive-include fema_inward_remittance *.txt
+recursive-exclude fema_inward_remittance *.pyc
